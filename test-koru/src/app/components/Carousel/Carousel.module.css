@@ -1,0 +1,23 @@
+.title {
+    color: #A67B5B;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: #A67B5B;
+    color: #FFFFFF;
+    border: none; 
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 0.5s ease-in-out
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .title {
+        font-size: 1.25rem;
+    }
+}

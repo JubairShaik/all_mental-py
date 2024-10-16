@@ -1,0 +1,46 @@
+[
+  {
+    "title": "School Streets for TNS",
+    "description": "Implementation guide and roadmap for introducing the School Streets program at TNS",
+    "date": "2024-11-09T00:00:00.000Z",
+    "published": true,
+    "featured": false,
+    "body": {
+      "raw": "\n<Callout>\n\nThis site is a work in progress. If you see dummy text on a page, it means I'm still working on it.\nPlease send suggestions, corrections, and questions to jbwashington@gmail.com.\n\n</Callout>\n",
+      "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var o in e)i(t,o,{get:e[o],enumerable:!0})},a=(t,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of f(e))!h.call(t,r)&&r!==o&&i(t,r,{get:()=>e[r],enumerable:!(s=p(e,r))||s.enumerable});return t};var w=(t,e,o)=>(o=t!=null?u(g(t)):{},a(e||!t||!t.__esModule?i(o,\"default\",{value:t,enumerable:!0}):o,t)),_=t=>a(i({},\"__esModule\",{value:!0}),t);var m=x((M,c)=>{c.exports=_jsx_runtime});var b={};j(b,{default:()=>d,frontmatter:()=>S});var n=w(m()),S={title:\"School Streets for TNS\",description:\"Implementation guide and roadmap for introducing the School Streets program at TNS\",date:\"2024-11-09\"};function l(t){let e={a:\"a\",p:\"p\",...t.components},{Callout:o}=e;return o||y(\"Callout\",!0),(0,n.jsx)(o,{children:(0,n.jsxs)(e.p,{children:[`This site is a work in progress. If you see dummy text on a page, it means I'm still working on it.\nPlease send suggestions, corrections, and questions to `,(0,n.jsx)(e.a,{href:\"mailto:jbwashington@gmail.com\",children:\"jbwashington@gmail.com\"}),\".\"]})})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(l,{...t})}):l(t)}function y(t,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+t+\"` to be defined: you likely forgot to import, pass, or provide it.\")}return _(b);})();\n;return Component;"
+    },
+    "_id": "guides/school-streets-for-tns.mdx",
+    "_raw": {
+      "sourceFilePath": "guides/school-streets-for-tns.mdx",
+      "sourceFileName": "school-streets-for-tns.mdx",
+      "sourceFileDir": "guides",
+      "contentType": "mdx",
+      "flattenedPath": "guides/school-streets-for-tns"
+    },
+    "type": "Guide",
+    "slug": "/guides/school-streets-for-tns",
+    "slugAsParams": "school-streets-for-tns"
+  },
+  {
+    "title": "Stream a PTA meeting with Zoom",
+    "description": "Learn how to inclusively livestream a PTA meeting with Zoom.",
+    "date": "2024-09-11T00:00:00.000Z",
+    "published": true,
+    "featured": false,
+    "body": {
+      "raw": "\n<Callout>\n\nThis site is a work in progress. If you see dummy text on a page, it means I'm still working on it.\n\n</Callout>\n",
+      "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var w=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),g=(t,e)=>{for(var o in e)r(t,o,{get:e[o],enumerable:!0})},m=(t,e,o,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of f(e))!h.call(t,n)&&n!==o&&r(t,n,{get:()=>e[n],enumerable:!(s=d(e,n))||s.enumerable});return t};var y=(t,e,o)=>(o=t!=null?p(x(t)):{},m(e||!t||!t.__esModule?r(o,\"default\",{value:t,enumerable:!0}):o,t)),_=t=>m(r({},\"__esModule\",{value:!0}),t);var c=w((v,a)=>{a.exports=_jsx_runtime});var M={};g(M,{default:()=>u,frontmatter:()=>j});var i=y(c()),j={title:\"Stream a PTA meeting with Zoom\",description:\"Learn how to inclusively livestream a PTA meeting with Zoom.\",date:\"2024-09-11\"};function l(t){let e={p:\"p\",...t.components},{Callout:o}=e;return o||C(\"Callout\",!0),(0,i.jsx)(o,{children:(0,i.jsx)(e.p,{children:\"This site is a work in progress. If you see dummy text on a page, it means I'm still working on it.\"})})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,i.jsx)(e,{...t,children:(0,i.jsx)(l,{...t})}):l(t)}function C(t,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+t+\"` to be defined: you likely forgot to import, pass, or provide it.\")}return _(M);})();\n;return Component;"
+    },
+    "_id": "guides/streaming-pta-meetings-with-zoom.mdx",
+    "_raw": {
+      "sourceFilePath": "guides/streaming-pta-meetings-with-zoom.mdx",
+      "sourceFileName": "streaming-pta-meetings-with-zoom.mdx",
+      "sourceFileDir": "guides",
+      "contentType": "mdx",
+      "flattenedPath": "guides/streaming-pta-meetings-with-zoom"
+    },
+    "type": "Guide",
+    "slug": "/guides/streaming-pta-meetings-with-zoom",
+    "slugAsParams": "streaming-pta-meetings-with-zoom"
+  }
+]

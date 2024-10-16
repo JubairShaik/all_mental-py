@@ -1,0 +1,88 @@
+import { createStyles } from 'antd-style';
+
+export const useStyles = createStyles(({ cx, css, responsive, token, stylish }) => ({
+  actions: css`
+    margin-block-start: 24px;
+
+    button {
+      padding-inline: 32px !important;
+      font-weight: 500;
+    }
+
+    ${responsive.mobile} {
+      flex-direction: column;
+      gap: 16px;
+      width: 100%;
+      margin-block-start: 24px;
+
+      button {
+        width: 100%;
+      }
+    }
+  `,
+
+  canvas: cx(
+    stylish.gradientAnimation,
+    css`
+      pointer-events: none;
+
+      position: absolute;
+      z-index: 10;
+      inset-block-start: -250px;
+      inset-inline-start: 50%;
+      transform: translateX(-50%) scale(1.5);
+
+      width: 600px;
+      height: 400px;
+
+      opacity: 0.2;
+      filter: blur(100px);
+
+      ${responsive.mobile} {
+        width: 200px;
+        height: 300px;
+      }
+    `,
+  ),
+
+  container: css`
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+  `,
+
+  desc: css`
+    margin-block-start: 0;
+    font-size: ${token.fontSizeHeading3}px;
+    color: ${token.colorTextSecondary};
+    text-align: center;
+
+    ${responsive.mobile} {
+      margin-block: 24px;
+      margin-inline: 16px;
+      font-size: ${token.fontSizeHeading5}px;
+    }
+  `,
+  title: css`
+    z-index: 10;
+    margin: 0;
+    font-size: 100px;
+
+    ${responsive({
+      mobile: { display: 'flex', flexDirection: 'column', fontSize: 72, lineHeight: 1.2 },
+    })}
+
+    b {
+      ${stylish.gradientAnimation}
+      position: relative;
+      z-index: 5;
+      background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+
+      &::selection {
+        -webkit-text-fill-color: #000 !important;
+      }
+    }
+  `,
+}));

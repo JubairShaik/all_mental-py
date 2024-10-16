@@ -1,0 +1,20 @@
+{
+  "title": "PTA Bylaws",
+  "description": "The rules that govern the day-to-day operations of the PTA.",
+  "published": true,
+  "body": {
+    "raw": "\n<Callout>\n\nThis site is a work in progress. If you see dummy text on a page or broken links, it means we're still working on it!\n\n</Callout>\n\nAll bylaws must follow Chancellor's Regulation A-660. All changes to the template must also follow that regulation.\n",
+    "code": "var Component=(()=>{var p=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),w=(t,e)=>{for(var o in e)s(t,o,{get:e[o],enumerable:!0})},l=(t,e,o,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of h(e))!x.call(t,r)&&r!==o&&s(t,r,{get:()=>e[r],enumerable:!(i=d(e,r))||i.enumerable});return t};var y=(t,e,o)=>(o=t!=null?p(f(t)):{},l(e||!t||!t.__esModule?s(o,\"default\",{value:t,enumerable:!0}):o,t)),_=t=>l(s({},\"__esModule\",{value:!0}),t);var c=g((b,a)=>{a.exports=_jsx_runtime});var A={};w(A,{default:()=>m,frontmatter:()=>j});var n=y(c()),j={title:\"PTA Bylaws\",description:\"The rules that govern the day-to-day operations of the PTA.\"};function u(t){let e={p:\"p\",...t.components},{Callout:o}=e;return o||k(\"Callout\",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(o,{children:(0,n.jsx)(e.p,{children:\"This site is a work in progress. If you see dummy text on a page or broken links, it means we're still working on it!\"})}),`\n`,(0,n.jsx)(e.p,{children:\"All bylaws must follow Chancellor's Regulation A-660. All changes to the template must also follow that regulation.\"})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(u,{...t})}):u(t)}function k(t,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+t+\"` to be defined: you likely forgot to import, pass, or provide it.\")}return _(A);})();\n;return Component;"
+  },
+  "_id": "docs/documentation/bylaws.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/documentation/bylaws.mdx",
+    "sourceFileName": "bylaws.mdx",
+    "sourceFileDir": "docs/documentation",
+    "contentType": "mdx",
+    "flattenedPath": "docs/documentation/bylaws"
+  },
+  "type": "Doc",
+  "slug": "/docs/documentation/bylaws",
+  "slugAsParams": "documentation/bylaws"
+}

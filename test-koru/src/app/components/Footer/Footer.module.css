@@ -1,0 +1,34 @@
+.footer {
+    background-color: #4A4947;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.title {
+    color: #FF7676;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.link:hover {
+    color: #FF7676;
+    transition: 0.5s ease-in-out;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .footer {
+        padding: 2rem;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+}

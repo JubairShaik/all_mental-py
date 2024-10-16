@@ -1,0 +1,20 @@
+{
+  "title": "Parent engagement",
+  "description": "Platforms and tools for parent engagement",
+  "published": true,
+  "body": {
+    "raw": "\n<Callout>\n\nThis site is a work in progress. If you see dummy text on a page or broken links, it means we're still working on it!\n\n</Callout>\n\n## Communications\n\n* Email Newsletter Editor (with Principal and Parent Coordinator)\n* Konstella/GDrive/IT Administrator\n* Web Content\n* Digital Design (social media)\n* Events Calendar\n* Photography\n\n## Email Newsletter Guidelines\n\n### Deadlines\n\n* Everything should be held for the Monday school newsletter unless it is an emergency or the deadline is within 1 day.",
+    "code": "var Component=(()=>{var m=Object.create;var l=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var w=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),x=(i,e)=>{for(var t in e)l(i,t,{get:e[t],enumerable:!0})},r=(i,e,t,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!f.call(i,a)&&a!==t&&l(i,a,{get:()=>e[a],enumerable:!(o=u(e,a))||o.enumerable});return i};var b=(i,e,t)=>(t=i!=null?m(g(i)):{},r(e||!i||!i.__esModule?l(t,\"default\",{value:i,enumerable:!0}):t,i)),k=i=>r(l({},\"__esModule\",{value:!0}),i);var c=w((E,s)=>{s.exports=_jsx_runtime});var N={};x(N,{default:()=>h,frontmatter:()=>y});var n=b(c()),y={title:\"Parent engagement\",description:\"Platforms and tools for parent engagement\"};function d(i){let e={a:\"a\",h2:\"h2\",h3:\"h3\",li:\"li\",p:\"p\",span:\"span\",ul:\"ul\",...i.components},{Callout:t}=e;return t||C(\"Callout\",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t,{children:(0,n.jsx)(e.p,{children:\"This site is a work in progress. If you see dummy text on a page or broken links, it means we're still working on it!\"})}),`\n`,(0,n.jsxs)(e.h2,{id:\"communications\",children:[(0,n.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#communications\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Communications\"]}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"Email Newsletter Editor (with Principal and Parent Coordinator)\"}),`\n`,(0,n.jsx)(e.li,{children:\"Konstella/GDrive/IT Administrator\"}),`\n`,(0,n.jsx)(e.li,{children:\"Web Content\"}),`\n`,(0,n.jsx)(e.li,{children:\"Digital Design (social media)\"}),`\n`,(0,n.jsx)(e.li,{children:\"Events Calendar\"}),`\n`,(0,n.jsx)(e.li,{children:\"Photography\"}),`\n`]}),`\n`,(0,n.jsxs)(e.h2,{id:\"email-newsletter-guidelines\",children:[(0,n.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#email-newsletter-guidelines\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Email Newsletter Guidelines\"]}),`\n`,(0,n.jsxs)(e.h3,{id:\"deadlines\",children:[(0,n.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#deadlines\",children:(0,n.jsx)(e.span,{className:\"icon icon-link\"})}),\"Deadlines\"]}),`\n`,(0,n.jsxs)(e.ul,{children:[`\n`,(0,n.jsx)(e.li,{children:\"Everything should be held for the Monday school newsletter unless it is an emergency or the deadline is within 1 day.\"}),`\n`]})]})}function h(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(d,{...i})}):d(i)}function C(i,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+i+\"` to be defined: you likely forgot to import, pass, or provide it.\")}return k(N);})();\n;return Component;"
+  },
+  "_id": "docs/about/parent-engagement.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/about/parent-engagement.mdx",
+    "sourceFileName": "parent-engagement.mdx",
+    "sourceFileDir": "docs/about",
+    "contentType": "mdx",
+    "flattenedPath": "docs/about/parent-engagement"
+  },
+  "type": "Doc",
+  "slug": "/docs/about/parent-engagement",
+  "slugAsParams": "about/parent-engagement"
+}

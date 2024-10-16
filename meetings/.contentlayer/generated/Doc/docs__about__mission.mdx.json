@@ -1,0 +1,20 @@
+{
+  "title": "TNS Mission",
+  "description": "We are a group of parents, teachers, and community members who are committed to supporting the academic, social, and emotional well-being of our students.",
+  "published": true,
+  "body": {
+    "raw": "\n<Callout>\n\nThis site is a work in progress. If you see dummy text on a page or broken links, it means we're still working on it!\n\n</Callout>\n\n### Our Mission\n\nThe Neighborhood School’s mission is based on our deep belief that children thrive when we build on their strengths and provide a safe and nurturing environment.  Our practices and policies are rooted in anti-bias and anti-racist work, which involves the entire school community.  Our integrated, inquiry-based curriculum encompasses children’s interests and is responsive to the needs of each child.  We collaborate with families to foster a community that is supportive of the whole child.\n\n",
+    "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),w=(n,e)=>{for(var i in e)r(n,i,{get:e[i],enumerable:!0})},a=(n,e,i,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let t of p(e))!g.call(n,t)&&t!==i&&r(n,t,{get:()=>e[t],enumerable:!(s=u(e,t))||s.enumerable});return n};var x=(n,e,i)=>(i=n!=null?m(f(n)):{},a(e||!n||!n.__esModule?r(i,\"default\",{value:n,enumerable:!0}):i,n)),y=n=>a(r({},\"__esModule\",{value:!0}),n);var l=b((M,c)=>{c.exports=_jsx_runtime});var _={};w(_,{default:()=>h,frontmatter:()=>k});var o=x(l()),k={title:\"TNS Mission\",description:\"We are a group of parents, teachers, and community members who are committed to supporting the academic, social, and emotional well-being of our students.\"};function d(n){let e={a:\"a\",h3:\"h3\",p:\"p\",span:\"span\",...n.components},{Callout:i}=e;return i||v(\"Callout\",!0),(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(i,{children:(0,o.jsx)(e.p,{children:\"This site is a work in progress. If you see dummy text on a page or broken links, it means we're still working on it!\"})}),`\n`,(0,o.jsxs)(e.h3,{id:\"our-mission\",children:[(0,o.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#our-mission\",children:(0,o.jsx)(e.span,{className:\"icon icon-link\"})}),\"Our Mission\"]}),`\n`,(0,o.jsx)(e.p,{children:\"The Neighborhood School\\u2019s mission is based on our deep belief that children thrive when we build on their strengths and provide a safe and nurturing environment.  Our practices and policies are rooted in anti-bias and anti-racist work, which involves the entire school community.  Our integrated, inquiry-based curriculum encompasses children\\u2019s interests and is responsive to the needs of each child.  We collaborate with families to foster a community that is supportive of the whole child.\"})]})}function h(n={}){let{wrapper:e}=n.components||{};return e?(0,o.jsx)(e,{...n,children:(0,o.jsx)(d,{...n})}):d(n)}function v(n,e){throw new Error(\"Expected \"+(e?\"component\":\"object\")+\" `\"+n+\"` to be defined: you likely forgot to import, pass, or provide it.\")}return y(_);})();\n;return Component;"
+  },
+  "_id": "docs/about/mission.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/about/mission.mdx",
+    "sourceFileName": "mission.mdx",
+    "sourceFileDir": "docs/about",
+    "contentType": "mdx",
+    "flattenedPath": "docs/about/mission"
+  },
+  "type": "Doc",
+  "slug": "/docs/about/mission",
+  "slugAsParams": "about/mission"
+}

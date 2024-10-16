@@ -1,0 +1,20 @@
+{
+  "title": "PTA Meetings",
+  "description": "All about meetings",
+  "published": true,
+  "body": {
+    "raw": "\n",
+    "code": "var Component=(()=>{var f=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var _=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),M=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of _(e))!g.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(i=l(e,o))||i.enumerable});return t};var j=(t,e,n)=>(n=t!=null?f(d(t)):{},s(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),A=t=>s(a({},\"__esModule\",{value:!0}),t);var m=p((X,c)=>{c.exports=_jsx_runtime});var D={};M(D,{default:()=>x,frontmatter:()=>C});var r=j(m()),C={title:\"PTA Meetings\",description:\"All about meetings\"};function u(t){return(0,r.jsx)(r.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return A(D);})();\n;return Component;"
+  },
+  "_id": "docs/about/meetings/index.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/about/meetings/index.mdx",
+    "sourceFileName": "index.mdx",
+    "sourceFileDir": "docs/about/meetings",
+    "contentType": "mdx",
+    "flattenedPath": "docs/about/meetings"
+  },
+  "type": "Doc",
+  "slug": "/docs/about/meetings",
+  "slugAsParams": "about/meetings"
+}
